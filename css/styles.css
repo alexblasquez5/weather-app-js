@@ -34,9 +34,58 @@
     outline: 0;
     border: 0;
     color: #555;
-    padding: 5px 0 5px 10px;
+    padding: 5px 0 5px 20px;
 }
 
 .search button {
-    border-radius: 30px
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 16px;
+}
+
+
+.weather-icon {
+    width: 180px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+.weather h1 {
+    font-size: 85px;
+    font-weight: 650;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 25px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: 10px;
 }
